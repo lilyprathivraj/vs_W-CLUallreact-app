@@ -51,7 +51,7 @@ class App extends Component{
     this.setState({
       userDetailsList:filteredList,
     })
-
+    
   }
     
    render(){
