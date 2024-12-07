@@ -1,8 +1,8 @@
-import './index.css'
+import "./index.css";
 
-const SocialButton = props => {
-  console.log(props)
-  return <button className="social-button">{props.children}</button>
-}
+const SocialButton = (props) => {
+	console.log(props);
+	return <button className="social-button">{props.children}</button>;
+};
 
-export default SocialButton
+export default SocialButton;

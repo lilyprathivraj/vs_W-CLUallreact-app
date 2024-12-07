@@ -4,18 +4,22 @@
     )
 }*/
 
-import {Component} from 'react'
+import { Component } from "react";
 
-class Welcome extends Component{
-    render(){
-        const {name, greeting} = this.props
-        return <h1>{greeting} {name}!</h1>
-    }
+class Welcome extends Component {
+	render() {
+		const { name, greeting } = this.props;
+		return (
+			<h1>
+				{greeting} {name}!
+			</h1>
+		);
+	}
 }
 
 Welcome.defaultProps = {
-    name:"lily",
-    greeting:"Hello"
-}
+	name: "lily",
+	greeting: "Hello",
+};
 
-export default Welcome
+export default Welcome;
