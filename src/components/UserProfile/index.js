@@ -1,3 +1,4 @@
+import { AiFillCheckCircle } from "react-icons/ai";
 import "./index.css";
 
 const UserProfile = (props) => {
@@ -8,6 +9,7 @@ const UserProfile = (props) => {
 	};
 	return (
 		<li className="user-card-container">
+			<AiFillCheckCircle />
 			<img alt="avatar" src={imageUrl} className="avatar" />
 			<div className="user-details-container">
 				<h1 className="user-name">{name}</h1>
